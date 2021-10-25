@@ -1,0 +1,21 @@
+.product {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.product-name {
+    color: blue;
+    font-weight: normal;
+}
+
+.primary-button {
+    padding: 10px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    background-color: goldenrod;
+}
